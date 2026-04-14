@@ -2,24 +2,39 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Dashboard | Manuscrito UNPAZ</title>
+    <title>Global Speakers | Manuscrito UNPAZ</title>
     <style>
-        body { font-family: sans-serif; background: #0a0a0c; color: white; display: flex; flex-direction: column; align-items: center; padding: 50px; }
-        .nodo { border: 2px solid #d4af37; padding: 30px; border-radius: 15px; width: 80%; background: #16161a; box-shadow: 0 0 20px rgba(212,175,55,0.2); }
-        h1 { color: #d4af37; text-transform: uppercase; letter-spacing: 5px; }
-        .status { color: #28a745; font-weight: bold; }
-        .btn { background: #d4af37; color: black; padding: 15px 25px; text-decoration: none; font-weight: bold; border-radius: 5px; margin-top: 20px; display: inline-block; }
+        :root { --gold: #d4af37; --bg: #0d0d0d; --card: #1a1a1a; }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: white; margin: 0; padding: 40px; }
+        header { text-align: center; border-bottom: 2px solid var(--gold); padding-bottom: 20px; margin-bottom: 40px; }
+        h1 { letter-spacing: 4px; color: var(--gold); }
+        .grid-oradores { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: var(--card); border: 1px solid #333; padding: 20px; border-radius: 10px; transition: 0.3s; }
+        .card:hover { border-color: var(--gold); transform: scale(1.02); }
+        .badge { background: var(--gold); color: black; padding: 4px 8px; font-size: 0.7rem; font-weight: bold; border-radius: 3px; }
+        .btn-global { display: block; width: 100%; text-align: center; background: transparent; border: 1px solid var(--gold); color: var(--gold); padding: 10px; margin-top: 15px; cursor: pointer; text-decoration: none; }
     </style>
 </head>
 <body>
-    <h1>NODO GLOBAL DE AUTORIDAD</h1>
-    <div class="nodo">
-        <h3>ESTADO DEL PUENTE: <span class="status">ACTIVO</span></h3>
-        <p>Origen: UNPAZ (José C. Paz, Argentina)</p>
-        <p>Entidades: CACE | Red Global de Universidades</p>
-        <hr>
-        <p><i>"Escuchando al pensamiento que genera resultados..."</i></p>
-        <a href="https://github.com/luishy-code/manuscrito-pioneros-unpaz/blob/main/legal/ETHICS.md" class="btn">LEER CÓDIGO DE ÉTICA</a>
+    <header>
+        <h1>MANUSCRITO: NODO GLOBAL</h1>
+        <p>Acreditación de Oradores y Resultados de Comercio Electrónico</p>
+    </header>
+
+    <div class="grid-oradores">
+        <div class="card">
+            <span class="badge">NODO ORIGEN: UNPAZ</span>
+            <h3>Perfil Orador: Luis [Pionero]</h3>
+            <p>Especialidad: Gobernanza y Marca Personal.</p>
+            <p style="color: #888;">"Conmutando discursos en activos."</p>
+            <a href="#" class="btn-global">VER RESULTADOS VERIFICADOS</a>
+        </div>
+
+        <div class="card" style="border-style: dashed; opacity: 0.6;">
+            <h3>¿Sos Orador Global?</h3>
+            <p>Subí tu marca personal al nodo cumpliendo el ETHICS.md.</p>
+            <a href="https://github.com/luishy-code/manuscrito-pioneros-unpaz/pulls" class="btn-global">SOLICITAR ACREDITACIÓN</a>
+        </div>
     </div>
 </body>
 </html>
