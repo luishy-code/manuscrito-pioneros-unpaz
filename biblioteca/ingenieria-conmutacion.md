@@ -1,22 +1,23 @@
-# ⚙️ Eje: Ingeniería de Conmutación
-### Monetización y Conversión de la Autoridad en Activos
+## 💰 Modelo de Monetización: Esquema de Honorarios Globales
 
-La Ingeniería de Conmutación es el proceso técnico de transformar el flujo de atención (discurso) en flujo de caja (transacciones). En este nodo, no solo hablamos; cerramos.
+Para garantizar la alineación de intereses entre el Orador (Consultor) y la Empresa, se establece el siguiente protocolo de contratación basado en resultados:
 
-## 1. El Embudo de Autoridad (Funnel Soberano)
-* **Captación de Minorías:** Identificar nichos específicos que buscan soberanía digital y resultados, no solo títulos.
-* **Conmutación de Valor:** Ofrecer el "Marco Legal" y la "Ética" como un diferencial competitivo que justifica precios más altos (High Ticket).
-* **Cierre de Resultados:** El orador no vende un curso; vende una acreditación de resultados verificables en el e-commerce.
+### 1. Fee de Activación (Autoridad)
+* **Concepto:** Pago inicial por la auditoría técnica, diagnóstico de soberanía digital y configuración del marco legal.
+* **Valor:** Un pago fijo (determinado según la escala de la empresa) que cubre el blindaje inicial de los activos digitales.
 
-## 2. Fuentes de Ingresos del Orador Global
-* **Infoproductos Blindados:** Creación de masterclasses sobre cómo operar legalmente en e-commerce sin ser bloqueado por plataformas.
-* **Consultoría de Gobernanza:** Asesorar a marcas personales y empresas en la transición de "Objeto de Datos" a "Sujeto de Resultados".
-* **Suscripciones al Nodo:** Acceso a la base de datos verificada de oradores para empresas que buscan talento serio.
+### 2. Variable por Conmutación (Performance)
+* **Concepto:** Porcentaje sobre el incremento de las ventas reales o leads calificados tras la implementación de la Ingeniería de Conmutación.
+* **Modelo:** * **Tier 1:** 5-10% sobre la facturación directa derivada de los nuevos canales soberanos.
+    * **Tier 2:** Bono por cumplimiento de KPIs de retención de usuarios (LTV).
 
-## 3. Métricas de Monetización (KPIs)
-* **Tasa de Conmutación:** ¿Cuántos oyentes de un discurso se convierten en usuarios del sistema?
-* **Valor de Vida del Sujeto (LTV):** El crecimiento económico de un pionero desde que entra al nodo.
-* **ROI de Autoridad:** El retorno de inversión de tiempo en GitHub vs. redes sociales tradicionales.
+### 3. Retainer de Gobernanza (Suscripción)
+* **Concepto:** Pago mensual recurrente por el mantenimiento del nodo de autoridad de la empresa, actualización de normativas y defensa de datos.
+* **Beneficio:** Asegura que la empresa nunca vuelva a ser un "objeto" de las plataformas.
 
 ---
-*Este eje es la clave para que el Manuscrito sea una fuente de ingresos sostenible y escalable.*
+### 📈 Ejemplo de Flujo de Ingresos para el Orador:
+Si una empresa factura $10,000 USD y tu intervención logra un aumento del 20% mediante canales soberanos:
+1. **Cobras el Fee Fijo** por la consultoría inicial.
+2. **Cobras el % Variable** sobre esos $2,000 USD extra generados.
+3. **Mantienes un Recurrente** por la seguridad legal de esa nueva estructura.
