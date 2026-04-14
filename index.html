@@ -2,17 +2,23 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Speakers | Manuscrito UNPAZ</title>
     <style>
-        :root { --gold: #d4af37; --bg: #0d0d0d; --card: #1a1a1a; }
-        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: white; margin: 0; padding: 40px; }
+        :root { --gold: #d4af37; --bg: #0d0d0d; --card: #1a1a1a; --hover: #252525; }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: white; margin: 0; padding: 40px; line-height: 1.6; }
         header { text-align: center; border-bottom: 2px solid var(--gold); padding-bottom: 20px; margin-bottom: 40px; }
-        h1 { letter-spacing: 4px; color: var(--gold); }
-        .grid-oradores { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
-        .card { background: var(--card); border: 1px solid #333; padding: 20px; border-radius: 10px; transition: 0.3s; }
-        .card:hover { border-color: var(--gold); transform: scale(1.02); }
-        .badge { background: var(--gold); color: black; padding: 4px 8px; font-size: 0.7rem; font-weight: bold; border-radius: 3px; }
-        .btn-global { display: block; width: 100%; text-align: center; background: transparent; border: 1px solid var(--gold); color: var(--gold); padding: 10px; margin-top: 15px; cursor: pointer; text-decoration: none; }
+        h1 { letter-spacing: 4px; color: var(--gold); text-transform: uppercase; margin-bottom: 5px; }
+        header p { font-style: italic; opacity: 0.8; }
+        .grid-oradores { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; max-width: 1200px; margin: 0 auto; }
+        .card { background: var(--card); border: 1px solid #333; padding: 25px; border-radius: 12px; transition: all 0.3s ease; display: flex; flex-direction: column; }
+        .card:hover { border-color: var(--gold); transform: translateY(-5px); background: var(--hover); box-shadow: 0 10px 20px rgba(212, 175, 55, 0.1); }
+        .badge { background: var(--gold); color: black; padding: 5px 10px; font-size: 0.75rem; font-weight: bold; border-radius: 4px; align-self: flex-start; margin-bottom: 15px; }
+        h3 { margin: 10px 0; color: #fff; }
+        .btn-global { display: block; width: 100%; text-align: center; background: transparent; border: 1px solid var(--gold); color: var(--gold); padding: 12px; margin-top: 15px; cursor: pointer; text-decoration: none; font-weight: bold; border-radius: 6px; transition: 0.3s; box-sizing: border-box; }
+        .btn-global:hover { background: var(--gold); color: black; }
+        .btn-secondary { border-color: #555; color: #ccc; margin-top: 10px; }
+        .btn-secondary:hover { border-color: white; color: white; background: transparent; }
     </style>
 </head>
 <body>
@@ -26,14 +32,18 @@
             <span class="badge">NODO ORIGEN: UNPAZ</span>
             <h3>Perfil Orador: Luis [Pionero]</h3>
             <p>Especialidad: Gobernanza y Marca Personal.</p>
-            <p style="color: #888;">"Conmutando discursos en activos."</p>
-            <a href="#" class="btn-global">VER RESULTADOS VERIFICADOS</a>
+            <p style="color: #aaa; font-size: 0.9rem;">"Conmutando discursos en activos."</p>
+            <a href="https://github.com/luishy-code/manuscrito-pioneros-unpaz/blob/main/pioneros/orador-001-luis.md" class="btn-global">VER RESULTADOS VERIFICADOS</a>
         </div>
 
-        <div class="card" style="border-style: dashed; opacity: 0.6;">
+        <div class="card" style="border-style: dashed; opacity: 0.9;">
+            <span class="badge" style="background: #444; color: white;">ESTADO: CAPTACIÓN</span>
             <h3>¿Sos Orador Global?</h3>
-            <p>Subí tu marca personal al nodo cumpliendo el ETHICS.md.</p>
+            <p>Subí tu marca personal al nodo cumpliendo el protocolo institucional de ética.</p>
+            
             <a href="https://github.com/luishy-code/manuscrito-pioneros-unpaz/pulls" class="btn-global">SOLICITAR ACREDITACIÓN</a>
+            
+            <a href="https://github.com/luishy-code/manuscrito-pioneros-unpaz/blob/main/biblioteca/marco-legal-oradores.md" class="btn-global btn-secondary">IR A BIBLIOTECA LEGAL</a>
         </div>
     </div>
 </body>
