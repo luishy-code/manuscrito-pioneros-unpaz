@@ -14,7 +14,11 @@
 - **Impacto de Alcance:** Pionero en la integración académica UNPAZ - CACE via GitHub.
 - **Evidencia Inminente:** Repositorio `manuscrito-pioneros-unpaz` en vivo y funcional.
 
-## 📚 Ejes de Conocimiento Dominantes
+## 📚 Ejes de Conocimiento Dominantes 
+## 🚀 Servicios Profesionales Disponibles
+- [Consultoría en Soberanía Digital](https://github.com/luishy-code/manuscrito-pioneros-unpaz/blob/main/biblioteca/servicios-globales.md#1-auditoría-de-soberanía-digital)
+- [Conferencias sobre Ingeniería de Conmutación](https://github.com/luishy-code/manuscrito-pioneros-unpaz/blob/main/biblioteca/servicios-globales.md#2-keynote-ingeniería-de-la-conmutación)
+- [Auditoría de Gobernanza y Ética de Datos](https://github.com/luishy-code/manuscrito-pioneros-unpaz/blob/main/biblioteca/servicios-globales.md#4-implementación-de-gobernanza-de-datos)
 - [x] Arquitectura de la Autoridad
 - [x] Ingeniería de la Conmutación
 - [x] Gobernanza de Datos
